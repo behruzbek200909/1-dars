@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #000;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.uzum_market{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uzum_market h1{
+    font-family: 'poppins',sans-serif;
+    font-size: 35px;
+    color: #FFf;
+}
+
+.uzum_market button{
+    width: 158px;
+    height: 52px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 40px;
+    border: none;
+    background: orange;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+    .navigation_item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+}
+
+    .hero{
+    background: #000;
+}
+
+    .hero_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .hero_text_wrapper{
+    width: 40%;
+}
+
+    .hero_text_wrapper h1{
+    font-size: 45px;
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+}
+
+    .hero_text_wrapper p{
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+}
+
+    .hero_text_wrapper button{
+    width: 230px;
+    height: 70px;
+    border-radius: 20px 20px 20px 0px;
+    background: orange;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+    img{
+    border-radius: 20px;
+}
+
+    .chiziq{
+    width: 1200px;
+    height: 1px;
+    background: #fff;
+}
+
+.login{
+    background: #000;
+}
+
+.samsung{
+    color: #fff;
+}
+
+    .samsung_sayt h1{   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1440px;
+    font-size: 45px;
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+    text-align: left;
+}
+
+    .samsung_sayt p{
+    width: 600px;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    left: 1084px;
+}
+
+    .samsung_sayt button{   
+    width: 230px;
+    height: 70px;
+    border-radius: 20px 20px 0px 20px;
+    background: orange;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    left: 1400px; 
+    top: 850px;
+}
+
+    .kuz{
+    height: 400px;
+    background: #000;
+}
+
+    .kuz_qish{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.kuz_qish_bahor{
+    width: 400px;
+    top: 5436px;
+    left: 723.38px;   
+}
+
+    .kuz_qish_bahor input{
+    width: 500px;
+    height: 80px;
+    padding: 20px;
+    top: 5436px;
+    left: 723.38px;
+    border: 1px;
+    border: 1px solid #fff;
+    background: #000;
+    font-size: 20px;
+}
+
+    .kuz_qish_bahor button{
+    width: 230px;
+    height: 70px;
+    border-radius: 20px 20px 0px 20px;
+    background: orange; 
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}               

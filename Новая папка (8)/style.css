@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.street {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-left: 30px solid transparent;
+  border-bottom: 30px solid skyblue;
+  border-right: 30px solid transparent;
+  border-top: 30px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: -28px;
+  border-radius: 10px;
+}
+img {
+  border-radius: 20px;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.sign {
+  width: max-content;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 20px;
+  height: auto;
+  position: relative;
+  padding: 5px;
+  background: skyblue;
+  margin: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+span {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  font-family: "poppins", sans-serif;
+}
+
+.hart {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-left: 30px solid transparent;
+  border-bottom: 30px solid skyblue;
+  border-right: 30px solid transparent;
+  border-top: 30px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: -28px;
+  border-radius: 10px;
+}

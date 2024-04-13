@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2? Family= Poppins:wght@100;200;300;400;500;600 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1200px;
+  height: 200px;
+}
+
+.container {
+  background: #fff;
+}
+
+p {
+  width: 1300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  padding: 5px;
+}
+
+.navigation {
+  width: 1000px;
+  padding: 20px;
+  font-family: "poppins", sans-serif;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navigation-item a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-family: "poppins", sans-serif;
+}
+input {
+  width: 180px;
+  height: 40px;
+  border: 2px;
+  border-radius: 2px;
+  background: #fafafafa;
+}
+img {
+  width: 200px;
+  border: 2px;
+}
+
+button {
+  width: 140px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #fff;
+  background: black;
+  color: grey;
+  border-radius: 4px;
+}
+
+.matimatika {
+  width: 1200px;
+  height: 30px;
+}
+
+.fizika {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.kimyo {
+  background: #000;
+  color: #fff;
+  padding: 30px;
+  font-family: "poppins", sans-serif;
+}
+
+.fransiya {
+  width: 1200px;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.fransiya-efil a {
+  color: #fff;
+  height: 30px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
